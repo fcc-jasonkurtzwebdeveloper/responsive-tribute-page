@@ -1,7 +1,7 @@
 body {
-  background-image:url(http://singfactory.ie/wp-content/uploads/2017/04/paper.jpeg);
-  background-position: center;
-  background-size:cover;
+    background-image:url(http://singfactory.ie/wp-content/uploads/2017/04/paper.jpeg);
+    background-position: center;
+    background-size:cover;
 }
 
 #image {
@@ -13,5 +13,24 @@ body {
 }
 
 #img-caption, #title {
-text-align: center;
+    text-align: center;
+}
+
+#img-div {
+    margin: 35px 0px 40px 0px;
+}
+
+#img-caption {
+    padding: 7.5px;
+}
+
+.card {
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+
+.card-text {
+    padding: 15px 45px 25px 45px;
+    margin: 1.5em;
+    background-color: rgb(255,255,255);
 }
