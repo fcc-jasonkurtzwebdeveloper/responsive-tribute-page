@@ -4,7 +4,7 @@ body {
     background-size:cover;
 }
 
-#image {
+.image {
     max-width: 100%;
     display: block;
     height: auto;
@@ -15,9 +15,10 @@ body {
 #title {
     font-size:50px;
     text-shadow: 5px -3px 15px rgba(120,65,0,0.5);
+    margin-top: 50px;
 }
 
-#img-caption, #title {
+.img-caption, #title {
     text-align: center;
     color: rgb(95, 56, 0);
     font-family: 'Libre Baskerville', serif;
@@ -39,7 +40,7 @@ body {
 
 .card-text {
     padding: 15px 45px 25px 45px;
-    margin: 1.5em;
+    margin: 50px 1.5em 50px 1.5em;
     background-color: rgb(111,80,42);
-color: rgb(255,255,224);
+    color: rgb(255,255,224);
 }
