@@ -2,6 +2,9 @@ body {
     background-image:url(http://singfactory.ie/wp-content/uploads/2017/04/paper.jpeg);
     background-position: center;
     background-size:cover;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 .image {
@@ -13,9 +16,9 @@ body {
 }
 
 #title {
-    font-size:50px;
+    font-size: 50px;
     text-shadow: 5px -3px 15px rgba(120,65,0,0.5);
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .img-caption, #title {
@@ -40,7 +43,13 @@ body {
 
 .card-text {
     padding: 15px 45px 25px 45px;
-    margin: 50px 1.5em 50px 1.5em;
+    margin: 50px 2em 50px 2em;
     background-color: rgb(111,80,42);
     color: rgb(255,255,224);
+}
+
+footer {
+    background-color: rgb(198, 189, 151);
+    padding: 5px 20px 5px 20px;
+    margin: 0px;
 }
