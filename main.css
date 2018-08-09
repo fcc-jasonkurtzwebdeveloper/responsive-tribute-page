@@ -51,5 +51,20 @@ body {
 footer {
     background-color: rgb(198, 189, 151);
     padding: 5px 20px 5px 20px;
-    margin: 0px;
+    display: flex;
+    }
+
+#links {
+    width: 60%;
+    padding: 5px;
+}
+
+#footer-info {
+    width: 40%;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
 }
