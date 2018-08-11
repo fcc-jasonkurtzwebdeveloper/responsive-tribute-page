@@ -75,3 +75,8 @@ hr.sub-header + p {
 h3 {
     margin-top: 35px;
 }
+
+hr {
+    border-top: 3px double;
+    border-color: rgba(198, 189, 151, .5);
+}
