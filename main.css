@@ -82,3 +82,7 @@ hr {
     border-top: 3px double;
     border-color: rgba(198, 189, 151, .5);
 }
+
+a {
+    text-decoration: none;
+}
